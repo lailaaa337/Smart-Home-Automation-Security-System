@@ -1,31 +1,31 @@
-# 🏠 ESP32 Smart Home Automation & Security System
+#  ESP32 Smart Home Automation & Security System
 
 An integrated smart home system built on **ESP32 WROOM** that combines RFID access control, IoT cloud connectivity, ambient light sensing, and motion detection for comprehensive home automation and security.
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This project implements a multi-functional smart home system with the following capabilities:
 
-- 🔐 RFID-based door lock control using RC522 module  
-- ☁️ Remote LED control via Arduino IoT Cloud  
-- 🌞 Ambient light monitoring using analog light sensor  
-- 🚶 Motion detection with PIR sensor (HC-SR501)  
-- 📶 WiFi connectivity via ESP32  
+-  RFID-based door lock control using RC522 module  
+-  Remote LED control via Arduino IoT Cloud  
+-  Ambient light monitoring using analog light sensor  
+-  Motion detection with PIR sensor (HC-SR501)  
+-  WiFi connectivity via ESP32  
 
 All components are integrated and controlled through an ESP32 microcontroller.
 
 ---
 
-## 🧰 Hardware Requirements
+##  Hardware Requirements
 
-### 🔹 Main Controller
+###  Main Controller
 - ESP32 WROOM  
 - USB Cable (programming & power)  
 - Breadboard & Jumper Wires  
 
-### 🔹 RFID Door Lock System
+###  RFID Door Lock System
 - RC522 RFID Module (13.56 MHz) + Tags/Cards  
 - Center-Lock Actuator  
 - H-Bridge Motor Driver (L298N)  
@@ -33,19 +33,19 @@ All components are integrated and controlled through an ESP32 microcontroller.
 - 16x2 I2C LCD Display  
 - 12V Buzzer  
 
-### 🔹 IoT Cloud Control
+###  IoT Cloud Control
 - LED  
 - 220Ω Resistor  
 
-### 🔹 Light Sensing
+###  Light Sensing
 - Light Sensor Module (KY-018 / TEMT6000 / Photoresistor)
 
-### 🔹 Motion Detection
+###  Motion Detection
 - PIR Motion Sensor (HC-SR501)
 
 ---
 
-## 🔌 Wiring Configuration
+## Wiring Configuration
 
 ### RFID RC522 (SPI Connection)
 
@@ -106,9 +106,9 @@ All components are integrated and controlled through an ESP32 microcontroller.
 
 ---
 
-## 📚 Software Requirements
+##  Software Requirements
 
-### 🔹 Required Libraries
+###  Required Libraries
 Install via Arduino Library Manager:
 
 - MFRC522
@@ -118,16 +118,16 @@ Install via Arduino Library Manager:
 - ArduinoIoTCloud.h
 - Arduino_ConnectionHandler.h
 
-### 🔹 Development Environment
+###  Development Environment
 - Arduino IDE or PlatformIO  
 - ESP32 Board Package  
 - Arduino IoT Cloud Account (optional)
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Arduino IoT Cloud (Optional)
+### 1. Arduino IoT Cloud (Optional)
 
 1. Visit https://app.arduino.cc  
 2. Add Device → Select ESP32  
@@ -142,7 +142,7 @@ Install via Arduino Library Manager:
 
 ---
 
-### 2️⃣ Code Deployment
+### 2️. Code Deployment
 
 1. Install required libraries  
 2. Configure WiFi credentials in `arduino_secrets.h`  
@@ -151,7 +151,7 @@ Install via Arduino Library Manager:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── main.ino
@@ -162,7 +162,7 @@ Install via Arduino Library Manager:
 
 ---
 
-## 🧠 Key Code Snippets
+##  Key Code Snippets
 
 ### Light Sensor Reading
 
@@ -191,7 +191,7 @@ void setup() {
 
 ---
 
-## 📊 System Flow
+##  System Flow
 
 1. System Boot – Initialize peripherals  
 2. WiFi Connection – Connect to network  
@@ -203,31 +203,23 @@ void setup() {
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 - Laila Tarek – 231003520  
 - Hana Tariq – 231000481  
 - Miran Samer – 231010991  
 - Hana Mabrouk – 231002230  
 - Lojaine Mohamed – 231000453  
-
-**Supervised by:**  
-Dr. Omar Shalash  
-Eng. Samar  
-
-Arab Academy for Science & Technology  
-College of Computing & Information Technology  
-Artificial Intelligence Department  
-
+ 
 ---
 
-## 📜 License
+##  License
 
 This project is developed for academic purposes. All rights reserved.
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 | Issue | Solution |
 |--------|-----------|
@@ -238,7 +230,7 @@ This project is developed for academic purposes. All rights reserved.
 
 ---
 
-## 🚧 Future Improvements
+##  Future Improvements
 
 - EEPROM storage for authorized RFID tags  
 - Automated home routines  
@@ -249,7 +241,7 @@ This project is developed for academic purposes. All rights reserved.
 
 
 
-## 🎥 Project Demo
+##  Project Demo
 
 <p align="center">
   <a href="vid1.gif">
